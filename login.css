@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-image: url('ITM.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.logincont{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid cyan; */
+    display: flex;
+    justify-content: center;
+}
+.logincont .login{
+    width:500px;
+    height: auto;
+    background-color: #89023e;
+    /* border:1px solid black; */
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.logincont .login h2{
+    margin-top:-50px;
+    text-align: center;
+    
+    font-size: 40px;
+    color: white;
+}
+.logincont .login .userimg{
+    width: 100px;
+	height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+   
+    
+}
+.logincont .login .userimg img{
+    position: relative;
+    top:-90px;
+    width: 100%;
+	height: 100%;
+    border:5px solid white;
+	border-radius:50%;
+	
+}
+
+.logincont .login form{
+    /* border:1px solid white; */
+  
+    padding-top: 10px;
+}
+.logincont .login form label{
+    
+    color: white;
+    font-size: 18px;
+}
+
+.logincont .login form input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+    /* min-width: 300px; */
+    
+    /* padding-left: 10px; */
+}
+
+
+.logincont .login form span{
+    color: white;
+    margin: 5px;
+}
+.logincont .login form #log{
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    color:  #89023e;
+    
+    
+}
+.logincont .login .signup{
+    color: white;
+    font-size: 17px;
+    /* padding-left: 35px; */
+}
+.logincont .login .signup a{
+    color: white;
+    
+}
+@media (max-width:375px){
+    .logincont .login h2{
+        font-size: 30px;
+    }
+
+}
